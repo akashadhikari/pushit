@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'fcm_django',
     'corsheaders',
     'sslserver',
+    'message'
 ]
 
 MIDDLEWARE = [
