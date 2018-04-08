@@ -12,11 +12,9 @@ Quick demo to demonstrate the use of firebase web push notifications with the us
 
 ### frontend
 - in `pushit/frontend`:
-  - run server with `python -m http.serverr 8001`
+  - run server with `python -m http.server 8001`
 
 ### backend
-- in `pushit/mysite` open `settings.py`
-  - change allowed hosts to all `ALLOWED_HOSTS = ['*']`
 - in `pushit/mysite`:
   - run database migrations with `python manage.py migrate`
   - create Django administrator with `python manage.py createsuperuser`
